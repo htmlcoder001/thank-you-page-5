@@ -411,7 +411,7 @@ main:after {
     height: 100px;
   }
   .ty-heading__title {
-    font-size: 65px;
+    font-size: 90px;
   }
   .ty-heading__subtitle {
     font-size: 30px;
@@ -450,7 +450,13 @@ main:after {
   .ty-form__edit, .ty-form__submit {
     font-size: 15px;
   }
-  
+  html,
+  body {
+    background-image: url(../img/main-bg-mob.jpg);
+    background-color: #000000;
+    background-size: calc(100% + 25px);
+    background-position: top;
+  }
 }
 
 @media (max-width: 480px) {
